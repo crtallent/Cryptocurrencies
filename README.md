@@ -15,3 +15,11 @@ For this project, we are working with a company that would like to offer a new c
 Our first step in processing the cryptocurrency data was to read the csv file into a Pandas DataFrame. To prepare the data for preprocessing, we filtered the dataset to show only the cryptocurrencies currently being traded, and removed all rows with Null values. We then filtered our results to show only the cryptocurrencies where coins had been mined:
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/new_crypto_df.png" alt="Crypto_df" title="Crypto_df" />
+
+We then created variables for the text features in our dataset, Algorithm and ProofType, and stored this data in a DataFrame, named "X". We used StandardScaler's fit_transform function to standardize the features from X DataFrame so that Principal Component Analysis (PCA) could be performed on the dataset.  
+
+~~~
+# Use get_dummies() to create variables for text features.
+X = pd.get_dummies(new_crypto_df, columns=['Algorithm', 'ProofType'])
+X
+~~~
