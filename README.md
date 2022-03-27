@@ -6,7 +6,7 @@ For this project, we are working with a company that would like to offer a new c
 
 ## Resources
 
-* Software: Python 3.7.6, Jupyter Notebook 7.29.0
+* Software: Python 3.7.6, Jupyter Notebook 7.29.0, hvPlot 0.7.2, Plotly 5.6.0
 * Data Source: [cryptocurrency_data.csv](https://min-api.cryptocompare.com/data/all/coinlist) from CryptoCompare. 
 * All code can be found [here](https://github.com/crtallent/Cryptocurrencies/blob/main/crypto_clustering.ipynb).
 
