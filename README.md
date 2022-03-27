@@ -56,5 +56,12 @@ X_copy[["TotalCoinSupply", "TotalCoinsMined"]] = scaler.fit_transform(X_copy[["T
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/plot_df.png" alt="plot_df" title="plot_df" />
 
+We then created 2D scatter plots of our clusters using both Plotly and hvPlot:
 
+<p float="left">
+  <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/hvplot1.png" title="hvPlot" width="200" />
+  <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/hvplot.png" title="hvPlot with hover" width="200" /> 
+  <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/plotly.png" title="plotly plot" width="200" />
+  <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/plotly1.png" title="plotly plot with hover" width="200" />
+</p>
 
