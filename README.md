@@ -45,3 +45,15 @@ The clustered_df was then used to plot our clusters on a 3D Scatter Plot with Pl
 We then created a table with hvPlot, and found that the total number of tradable cryptocurrences was 534:
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/hvplot_table.png" alt="hvPlot table" title="hvPlot table" />
+
+We then scaled our TotalCoinSupply and TotalCoinsMined using MinMaxScaler to prepare our data for creating a 2D scatter plot and created our final DataFrame with the scaled data, plot_df:
+
+~~~
+X_copy = X.copy()
+scaler = MinMaxScaler()
+X_copy[["TotalCoinSupply", "TotalCoinsMined"]] = scaler.fit_transform(X_copy[["TotalCoinSupply", "TotalCoinsMined"]])
+~~~
+
+<img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/plot_df.png" alt="plot_df" title="plot_df" />
+
+
