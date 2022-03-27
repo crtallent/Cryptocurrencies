@@ -42,7 +42,7 @@ The clustered_df was then used to plot our clusters on a 3D Scatter Plot with Pl
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/3d_scatter.png" alt="3D Scatter Plot" title="3D Scatter Plot" />
 
-We then created a table with hvPlot, and found that the total number of tradable cryptocurrences was 534:
+We then created a table with hvPlot, and found that the total number of tradable cryptocurrencies was 534:
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/hvplot_table.png" alt="hvPlot table" title="hvPlot table" />
 
