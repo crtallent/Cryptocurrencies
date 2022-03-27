@@ -27,3 +27,8 @@ X
 X_scaled = StandardScaler().fit_transform(X)
 print(X_scaled)
 ~~~
+
+PCA was then performed on the X dataset to prepare the data for clustering with machine learning algorithms. Using PCA, the dimension of the data was reduced to three principal components, to ensure more efficient processing, and a new DataFrame was constructing with these components:
+
+<img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/PCA.png" alt="pcs_df" title="pcs_df" />
+
