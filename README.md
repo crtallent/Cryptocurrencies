@@ -10,3 +10,8 @@ For this project, we are working with a company that would like to offer a new c
 * Data Source: [cryptocurrency_data.csv](https://min-api.cryptocompare.com/data/all/coinlist) from CryptoCompare. 
 * All code can be found [here](https://github.com/crtallent/Cryptocurrencies/blob/main/crypto_clustering.ipynb).
 
+## Processing the Data
+
+Our first step in processing the cryptocurrency data was to read the csv file into a Pandas DataFrame. To prepare the data for preprocessing, we filtered the dataset to show only the cryptocurrencies currently being traded, and removed all rows with Null values. We then filtered our results to show only the cryptocurrencies where coins had been mined:
+
+<img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/new_crypto_df.png" alt="Crypto_df" title="Crypto_df" />
