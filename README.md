@@ -22,4 +22,8 @@ We then created variables for the text features in our dataset, Algorithm and Pr
 # Use get_dummies() to create variables for text features.
 X = pd.get_dummies(new_crypto_df, columns=['Algorithm', 'ProofType'])
 X
+
+# Standardize the data with StandardScaler().
+X_scaled = StandardScaler().fit_transform(X)
+print(X_scaled)
 ~~~
