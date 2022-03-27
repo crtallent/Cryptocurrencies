@@ -41,3 +41,5 @@ Using the results of our elbow curve plot, we then initialized and fit our K-Mea
 The clustered_df was then used to plot our clusters on a 3D Scatter Plot with Plotly:
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/3d_scatter.png" alt="3D Scatter Plot" title="3D Scatter Plot" />
+
+
