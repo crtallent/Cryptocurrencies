@@ -67,4 +67,4 @@ We then created 2D scatter plots of our clusters using both Plotly and hvPlot:
 
 ## Summary
 
-With the clusters created, we now have four classifications for the company. Hppefully, these visualizations will show the board that it is possible to predict which cryptocurrencies should be added to their clients' portfolio options. The clusters created can then be analyzed to determine the best options based on their clients' preferences. 
+With the clusters created, we now have four classifications for the company. Hppefully, these visualizations will show the board that it is possible to predict which cryptocurrencies should be added to their clients' portfolio options. The clusters created can then be analyzed to determine the best options based on their clients' investment preferences. 
