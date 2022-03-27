@@ -30,5 +30,7 @@ PCA was then performed on the X dataset to prepare the data for clustering with 
 
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/PCA.png" alt="pcs_df" title="pcs_df" />
 
+With the new pcs_df DataFrame, we created an elbow curve using hvPlot to find the best value for K (the number of our clusters in our dataset):
 
+<img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/Elbow.png" alt="elbow curve plot" title="Elbow Curve" />
 
