@@ -57,3 +57,4 @@ X_copy[["TotalCoinSupply", "TotalCoinsMined"]] = scaler.fit_transform(X_copy[["T
 <img src="https://github.com/crtallent/Cryptocurrencies/blob/main/Resources/Images/plot_df.png" alt="plot_df" title="plot_df" />
 
 
+
